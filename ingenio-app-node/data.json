@@ -1,0 +1,45 @@
+[
+  {
+    "categoryId": 100,
+    "parentCategoryId": -1,
+    "name": "Business",
+    "keywords": "Money"
+  },
+  {
+    "categoryId": 200,
+    "parentCategoryId": -1,
+    "name": "Tutoring",
+    "keywords": "Teaching"
+  },
+  {
+    "categoryId": 101,
+    "parentCategoryId": 100,
+    "name": "Accounting",
+    "keywords": "Taxes"
+  },
+  {
+    "categoryId": 102,
+    "parentCategoryId": 100,
+    "name": "Taxation"
+  },
+  {
+    "categoryId": 201,
+    "parentCategoryId": 200,
+    "name": "Computer"
+  },
+  {
+    "categoryId": 103,
+    "parentCategoryId": 101,
+    "name": "Corporate Tax"
+  },
+  {
+    "categoryId": 202,
+    "parentCategoryId": 201,
+    "name": "Operating System"
+  },
+  {
+    "categoryId": 109,
+    "parentCategoryId": 101,
+    "name": "Small Business Tax"
+  }
+]
