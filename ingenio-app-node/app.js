@@ -17,7 +17,7 @@ const getCategoryById = (categoryId) => {
 
 const getCategoryIdsByLevel = (categoryLevel) => {
   //numeric value validation
-  if (!isNaN(categoryId)) {
+  if (!isNaN(categoryLevel)) {
     if (categoryLevel === 1)
       categories = categories.filter(
         (_category) => _category.parentCategoryId == -1
